@@ -1,0 +1,58 @@
+header,
+footer {
+	background-color: Cornsilk ;
+	padding: 2rem 2rem;
+	margin-bottom: 2rem;
+}
+
+table {
+	width: 100%;
+}
+
+table caption {
+	padding: 1rem 0;
+	background-color: #E1E1E1;
+	margin-top: 2em;
+	caption-side: bottom;
+}
+
+td {
+	font-size: 10rem;
+	line-height: 10rem;
+	font-family: monospace;
+	width: 10rem;
+	height: 10rem;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px grey;
+}
+
+td:hover {
+	cursor: pointer;
+	background-color: Cornsilk;
+}
+
+td:not(:last-child) {
+	border-right: 1rem solid #E1E1E1;
+}
+
+tr:not(:last-child) {
+	border-bottom: 1rem solid #E1E1E1;
+}
+
+tr:last-child td{
+	border-bottom: none;
+}
+
+.red {
+	color: tomato;
+}
+
+.blue {
+	color: slateblue;
+}
+
+.fullwidth {
+	width: 100%;
+}

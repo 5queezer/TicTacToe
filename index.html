@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<title>Tic Tac Toe</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" /> 
+<link rel="stylesheet" type="text/css" href="css/skeleton.css" /> 
+<link rel="stylesheet" type="text/css" href="css/tictactoe.css" /> 
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+<div class="container">
+	<header class="row">
+		<div class="twelve columns">
+			<h1>Tic Tac Toe</h1>
+		</div>
+	</header>
+	<div class="row">
+
+		<div class="offset-by-three six columns">
+			<table id="ttt-table">
+				<caption>&nbsp;</caption>
+				<tr>
+					<td onclick="javascript:tableClick(0);">
+					</td>
+					<td onclick="javascript:tableClick(1);">
+					</td>
+					<td onclick="javascript:tableClick(2);">
+					</td>
+				</tr>
+				<tr>
+					<td onclick="javascript:tableClick(3);">
+					</td>
+					<td onclick="javascript:tableClick(4);">
+					</td>
+					<td onclick="javascript:tableClick(5);">
+					</td>
+				</tr>
+				<tr>
+					<td onclick="javascript:tableClick(6);">
+					</td>
+					<td onclick="javascript:tableClick(7);">
+					</td>
+					<td onclick="javascript:tableClick(8);">
+					</td>
+				</tr>
+			</table>
+			<a class="button button-primary fullwidth" onClick="javascript:resetboard();">Zurücksetzen</a>
+		</div>
+
+	</div>
+	<footer class="row">	
+		<div class="twelve columns">
+			&copy Christian Pojoni 2015 <a href="http://www.szf.at" target="_blank">SZF</a>
+		</div>
+	</footer>
+</div>
+
+<script language="javascript" type="text/javascript" src="js/tictactoe.js"></script>
+</body>
+</head>
